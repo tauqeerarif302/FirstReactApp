@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom"
 
 export const Main = () => {
     return (
         <>
-        <h1 className="mx-2">This is Home component</h1>
-        <Link className="mx-2 btn btn-link" to="/login" >Click here to Login</Link>
-        <Link className="mx-5 btn btn-link" to="/register" >Click here to Register</Link>
+        <form method="post" className="form">
+            <h1>Add Your Reciepe</h1>
+            <input type="text" placeholder="Enter Name" className="input" />
+            <textarea placeholder="Enter Descrption"  className="input" rows="5" cols="22"/>
+            <input type="file" />
+            <button type="submit">Add</button>
+        </form>
         </>
     )
 }

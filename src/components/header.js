@@ -9,7 +9,7 @@ export const Header = () => {
                 </button>
 
                 <div className="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-                    <a className="navbar-brand col-lg-3 me-0" href="#">TAQI.</a>
+                    <a className="navbar-brand col-lg-3 me-0" href="/">Reciepe App.</a>
                     <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" aria-current="page" href="#">Home</Link>
