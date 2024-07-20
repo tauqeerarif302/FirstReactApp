@@ -14,6 +14,9 @@ export const Header = () => {
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" aria-current="page" href="#">Home</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/contact" className="nav-link active" aria-current="page" href="#">Contact</Link>
+                        </li>
                         
 
                     </ul>
